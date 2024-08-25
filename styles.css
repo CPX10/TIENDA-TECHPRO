@@ -369,12 +369,6 @@ img {
 
 /**newsletter**/
 .newsletter {
-	background-image: linear-gradient(
-			to bottom,
-			transparent 50%,
-			var(--blanco) 0%
-		),
-		url(img/newsletter.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100%, 70rem;
@@ -405,12 +399,6 @@ img {
 }
 @media (min-width: 768px) {
 	.newsletter {
-		background-image: linear-gradient(
-				to right,
-				transparent 50%,
-				var(--blanco) 0%
-			),
-			url(img/newsletter.jpg);
 		background-position: center, -21rem 0rem;
 		background-repeat: no-repeat;
 		background-size: 100%, 100rem;
@@ -419,7 +407,7 @@ img {
 
 	.notavif.notwebp .newsletter {
 		background-image: linear-gradient(
-				to bottom,
+				to bright,
 				transparent 50%,
 				var(--blanco) 0%
 			),
@@ -428,7 +416,7 @@ img {
 
 	.webp .newsletter {
 		background-image: linear-gradient(
-				to bottom,
+				to bright,
 				transparent 50%,
 				var(--blanco) 0%
 			),
@@ -437,7 +425,7 @@ img {
 
 	.avif .newsletter {
 		background-image: linear-gradient(
-				to bottom,
+				to right,
 				transparent 50%,
 				var(--blanco) 0%
 			),
@@ -446,14 +434,14 @@ img {
 }
 @media (min-width: 2200px) {
 	.newsletter {
-		background-size: 100%, 400rem;
+		background-size: 100%, 200rem;
 		background-position: center, 0% -30rem;
 		/*para macbook*/
 	}
 }
 .contenido-newsletter {
 	display: grid;
-	grid-template-rows: repeat(2, 30rem);
+	grid-template-rows: repeat(2, 45rem);
 	gap: var(--separacion);
 }
 @media (min-width: 768px) {
@@ -495,5 +483,5 @@ img {
 	font-family: var(--fuenteSecundaria);
 	font-size: 2rem;
 	color: var(--primario);
-	padding: 3rem 0;
+	padding: 2rem 0;
 }
